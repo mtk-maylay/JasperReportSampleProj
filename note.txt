@@ -1,0 +1,44 @@
+What is Jasper Report?
+JasperReports is an open-source Java-based reporting tool that allows developers to generate dynamic reports from various data sources.
+
+It provides a flexible and powerfull framework for designing, generating, and delivering reports in multiple formats such as PDF, HTML, CSV, and more
+
+JasperReports uses an XML-based report template format called JRXML(JasperReports XML), which defines the structure and layout of the report.
+
+The template can be created using a visual report designer tool, such as jaspersoft studio or IReport, or directly in XML format.
+
+What is JasperSoft Studio?
+Jaspersoft studio is a powerful and feature-rich visual report designer tool for JasperReports.
+
+It is an open-source desktop application that provides an intuitive and user-friendly interface for designing, editin, and previewing reports created using the jasperReports library.
+
+What is Report?
+A report is a meaningful, well-defined, and summarized presentation of information.
+Reports represent usual messy data into charts, graphs, and other forms of graphical representations.
+
+JRXML and JASPER file
+Jasper Report life cycle
+
+JRXML (JasperReports XML)
+
+JRXML (JasperReports XML) and Jasper files are components of the jasperReports library
+JRXML is an XML-based file format used to define the structure and layout of a report in JasperReports.
+It serves as a template or blueprint for generating reports.
+JRXML files are human-readable and can be edited using text editor or specialized report design tools.
+They contain report elements such as text fields , images, charts and formatting instructions
+JRXXML files define the data sources, query statements, and parameters required for generating the report
+
+JASPER file
+
+Jasper files are compiled versions of JRXML files with extension.jasper
+Jasper files are binary files and cannot be easily edited by developers.
+They encapsulate the design, structure, and data required to produce a report.
+Jasper files can be executed to generate reports in various formats, such as PDF, HTML, Excel, etc.
+They are optimized for performance and can be distributed and executed independently of the JasperRepots library.
+
+Jasper Report Life Cycle
+
+Design Phase => Create JRXML file and design it in Jaspersoft Studio
+Compile Phase => Compile JRXML to jasper file
+Execution Phase => Fill the jasper template with Data to generate jasper print file(*.jrprint)
+Export Phase => Export the report to any desired format.
